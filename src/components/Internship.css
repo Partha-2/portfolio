@@ -5,13 +5,76 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.internship-section a {
-  display: inline-flex;
-  align-items: center;
-  color: #007bff;
+.experience-item {
+  margin-bottom: 25px;
+  padding: 15px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #fff 100%);
+  border-left: 4px solid #007bff;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  animation: slideIn 0.6s ease-out;
 }
 
-.internship-section a i {
-  margin-right: 5px;
+.experience-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateX(5px);
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-header h3 {
+  color: #007bff;
+  font-size: 1.2em;
+  margin: 0 0 5px 0;
+}
+
+.experience-header .role {
+  color: #0056b3;
+  font-weight: 600;
+  margin: 5px 0;
+  font-size: 1.05em;
+}
+
+.experience-header .period {
+  color: #999;
+  font-size: 0.95em;
+  margin: 5px 0 10px 0;
+  font-style: italic;
+}
+
+.experience-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experience-item li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.experience-item li:before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
