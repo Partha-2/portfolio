@@ -14,7 +14,7 @@ const Header = () => {
         <p className="location">📍 Bengaluru, Karnataka</p>
         <div className="contact-info">
           <a href="tel:+919344776999">+91 93447 76999</a> | 
-          <a href="mailto:mparthasarathy0000@gmail.com">Email</a>
+          <a href="mailto:mparthasarathy0000@gmail.com">mparthasarathy0000@gmail.com</a>
         </div>
         <div className="social-links">
           <a href="https://www.linkedin.com/in/partha-sarathy-in/" target="_blank" rel="noopener noreferrer">LinkedIn</a> | 
@@ -22,10 +22,9 @@ const Header = () => {
           <a href="https://leetcode.com/u/partha02/" target="_blank" rel="noopener noreferrer">LeetCode</a>
         </div>
         <div className="resume-download">
-          <a href="#" className="resume-btn" onClick={(e) => {
-            e.preventDefault();
-            window.print();
-          }}>📄 Download Resume</a>
+          <a href="https://drive.google.com/file/d/1D3sRahepOiWa8Zs8R6RRbBgSLyjBDrny/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="resume-btn">
+            📄 Download Resume
+          </a>
         </div>
       </div>
     </header>
