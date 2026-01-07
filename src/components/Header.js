@@ -22,7 +22,7 @@ const Header = () => {
           <a href="https://leetcode.com/u/partha02/" target="_blank" rel="noopener noreferrer">LeetCode</a>
         </div>
         <div className="resume-download">
-          <a href="https://www.linkedin.com/safety/go?url=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1DiOye_syYzs178xxzGEbnGmGO0D1O3bg%2Fview%3Fusp%3Ddrivesdk&trk=flagship-messaging-web&messageThreadUrn=urn%3Ali%3AmessagingThread%3A2-MzE1MzFkZDUtM2UzZS00ZDkzLTg5YjctNTM3NWU1Y2NmNjA5XzEwMA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3BIrm%2BKpsyS%2BqMkPmSuFjsGg%3D%3D" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          <a href="https://drive.google.com/file/d/1DiOye_syYzs178xxzGEbnGmGO0D1O3bg/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="resume-btn">
             📄 Download Resume
           </a>
         </div>
