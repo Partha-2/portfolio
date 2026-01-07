@@ -1,0 +1,33 @@
+.projects-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.projects-section li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.projects-section a {
+  display: flex;
+  align-items: center;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.projects-section a:hover {
+  color: #0056b3;
+}
+
+.external-link-icon {
+  margin-right: 5px;
+}

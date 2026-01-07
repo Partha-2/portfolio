@@ -1,0 +1,23 @@
+.skills-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills-section ul {
+  padding-left: 20px;
+}
+
+.skills-section li {
+  display: flex;
+  align-items: center;
+}
+
+.skills-section li i {
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+  

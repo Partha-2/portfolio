@@ -1,0 +1,20 @@
+.education-section {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-section ul {
+  padding-left: 20px;
+}
+
+.education-section li {
+  margin-bottom: 15px;
+}
+
+.education-section strong {
+  font-size: 1.2em;
+}
+
+  
