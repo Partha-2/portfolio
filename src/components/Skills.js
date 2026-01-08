@@ -11,7 +11,7 @@ const Skills = () => (
       </div>
       <div className="skill-category">
         <h3>Backend</h3>
-        <p>Spring Boot, RESTful APIs, Microservices, JDBC, JPA, Hibernate, Spring Security</p>
+        <p>Spring Boot, RESTful APIs, Microservices, JDBC, JPA, Hibernate, Spring Security(JWT Auth)</p>
       </div>
       <div className="skill-category">
         <h3>Frontend</h3>
@@ -19,7 +19,7 @@ const Skills = () => (
       </div>
       <div className="skill-category">
         <h3>Tools & Platforms</h3>
-        <p>Docker, Git/GitHub, Postman, MySQL Workbench, Google Cloud, Aiven, Render, Zoho Catalyst, Groq</p>
+        <p>Docker, Git/GitHub, Postman, MySQL Workbench, Google Cloud, Aiven, Render, Zoho Catalyst, Groq(AI API Platform)</p>
       </div>
     </div>
   </section>

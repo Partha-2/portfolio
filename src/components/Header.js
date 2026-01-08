@@ -1,5 +1,5 @@
 import React from 'react';
-import headerImage from './Images/me.jpg';
+import headerImage from './Images/me.png';
 import './Header.css'; 
 
 const Header = () => {
@@ -22,7 +22,7 @@ const Header = () => {
           <a href="https://leetcode.com/u/partha02/" target="_blank" rel="noopener noreferrer">LeetCode</a>
         </div>
         <div className="resume-download">
-          <a href="https://drive.google.com/file/d/1DiOye_syYzs178xxzGEbnGmGO0D1O3bg/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" className="resume-btn">
+          <a href="https://drive.google.com/file/d/18U7DAo4i9Ht-k5hGi_GDjuIPC0uxcPxb/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="resume-btn">
             📄 Download Resume
           </a>
         </div>
